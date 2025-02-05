@@ -131,10 +131,10 @@ class Blog {
     <div class="blog-actions">
     <button class="btn-edit" onclick="blogUI.editBlog(${
     blog.id
-    })">แไขี</button>
+    })">แก้ไข</button>
     <button class="btn-delete" onclick="blogUI.deleteBlog(${
     blog.id
-    })">ล็บ</button>
+    })">ลบ</button>
     </div>
     </div>
     `
