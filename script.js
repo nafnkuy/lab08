@@ -123,7 +123,7 @@ class Blog {
     <div class="blog-post">
     <h2 class="blog-title">${blog.title}</h2>
     <div class="blog-date">
-    พิ่เดทึเอ: ${blog.getFormattedDate()}
+    อัพเดทเมื่อ: ${blog.getFormattedDate()}
     </div>
     <div class="blog-content">
     ${blog.content.replace(/\n/g, "<br>")}
